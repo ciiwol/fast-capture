@@ -1,0 +1,16 @@
+D:\Project_GIT\fast-capture\s-shok\bin\Release\Fast Capture.exe.config
+D:\Project_GIT\fast-capture\s-shok\bin\Release\Fast Capture.exe.manifest
+D:\Project_GIT\fast-capture\s-shok\bin\Release\Fast Capture.application
+D:\Project_GIT\fast-capture\s-shok\bin\Release\Fast Capture.exe
+D:\Project_GIT\fast-capture\s-shok\bin\Release\Fast Capture.pdb
+D:\Project_GIT\fast-capture\s-shok\obj\Release\fast_capture.capture.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Release\fast_capture.preview.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Release\fast_capture.Properties.Resources.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Release\fast_capture.res.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Release\fast_capture.frmSetting.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Release\fast-capture.csproj.GenerateResource.Cache
+D:\Project_GIT\fast-capture\s-shok\obj\Release\Fast Capture.TrustInfo.xml
+D:\Project_GIT\fast-capture\s-shok\obj\Release\Fast Capture.exe.manifest
+D:\Project_GIT\fast-capture\s-shok\obj\Release\Fast Capture.application
+D:\Project_GIT\fast-capture\s-shok\obj\Release\Fast Capture.exe
+D:\Project_GIT\fast-capture\s-shok\obj\Release\Fast Capture.pdb

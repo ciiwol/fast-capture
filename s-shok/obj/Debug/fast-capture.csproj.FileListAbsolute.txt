@@ -1,0 +1,17 @@
+D:\Project_GIT\fast-capture\s-shok\bin\Debug\Fast Capture.exe.config
+D:\Project_GIT\fast-capture\s-shok\bin\Debug\Fast Capture.exe.manifest
+D:\Project_GIT\fast-capture\s-shok\bin\Debug\Fast Capture.application
+D:\Project_GIT\fast-capture\s-shok\bin\Debug\Fast Capture.exe
+D:\Project_GIT\fast-capture\s-shok\bin\Debug\Fast Capture.pdb
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\fast-capture.csprojResolveAssemblyReference.cache
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\fast_capture.capture.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\fast_capture.preview.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\fast_capture.Properties.Resources.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\fast_capture.res.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\fast_capture.frmSetting.resources
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\fast-capture.csproj.GenerateResource.Cache
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\Fast Capture.TrustInfo.xml
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\Fast Capture.exe.manifest
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\Fast Capture.application
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\Fast Capture.exe
+D:\Project_GIT\fast-capture\s-shok\obj\Debug\Fast Capture.pdb
