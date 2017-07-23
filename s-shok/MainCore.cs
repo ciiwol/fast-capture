@@ -57,8 +57,7 @@ namespace fast_capture
             mnuexit.Name = "mnuexit";
             mnuexit.Size = new System.Drawing.Size(149, 22);
             mnuexit.Text = "종료(Exit)";
-            mnuexit.Click += new System.EventHandler(delegate (object o, EventArgs a)
-            { Application.Exit(); });
+            mnuexit.Click += new System.EventHandler(delegate (object o, EventArgs a) { Application.Exit(); });
             mnu.Items.Add(mnucapture);
             mnu.Items.Add(mnuCap1);
             mnu.Items.Add(mnuCap2);

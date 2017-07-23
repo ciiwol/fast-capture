@@ -14,3 +14,4 @@ D:\Project_GIT\fast-capture\s-shok\obj\Release\Fast Capture.exe.manifest
 D:\Project_GIT\fast-capture\s-shok\obj\Release\Fast Capture.application
 D:\Project_GIT\fast-capture\s-shok\obj\Release\Fast Capture.exe
 D:\Project_GIT\fast-capture\s-shok\obj\Release\Fast Capture.pdb
+D:\Project_GIT\fast-capture\s-shok\obj\Release\fast-capture.csprojResolveAssemblyReference.cache

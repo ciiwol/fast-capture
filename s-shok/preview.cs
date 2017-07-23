@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using System.IO;
 namespace fast_capture
 {
     public partial class preview : Form
@@ -36,6 +32,8 @@ namespace fast_capture
 
         private void init()
         {
+            int thisWidth, thisHeight;
+            thisWidth = 380; /* this.Width; */ thisHeight = 230; /* this.Height; */ //왜 width랑 height가 이상하게나오지?
             switch (frmSetting.locationmode)
             {
                 case 0 :    //왼쪽위고정
@@ -43,18 +41,18 @@ namespace fast_capture
                     frmSetting.lastlocation.Y = 0;
                     break;
                 case 1 : case 4 :   //캡처영역중앙
-                    frmSetting.lastlocation.X = (xy.X + sz.Width / 2) - this.Width/2;
-                    frmSetting.lastlocation.Y = (xy.Y + sz.Height / 2) - this.Height/2;
+                    frmSetting.lastlocation.X = (xy.X + sz.Width / 2) - thisWidth/2;
+                    frmSetting.lastlocation.Y = (xy.Y + sz.Height / 2) - thisHeight/2;
                     break;
                 case 2 : case 5 :   //마지막마우스땐곳
                     Point p = MainCore.getCaptureFormStartPoint();
                     Size s = MainCore.getCaptureFormMaxSize();
-                    frmSetting.lastlocation.X = Cursor.Position.X - this.Width / 2;
-                    frmSetting.lastlocation.Y = Cursor.Position.Y - this.Height / 2;
+                    frmSetting.lastlocation.X = Cursor.Position.X - thisWidth / 2;
+                    frmSetting.lastlocation.Y = Cursor.Position.Y - thisHeight / 2;
                     if (frmSetting.lastlocation.X < p.X) frmSetting.lastlocation.X = p.X;
                     if (frmSetting.lastlocation.Y < p.Y) frmSetting.lastlocation.Y = p.Y;
-                    if (frmSetting.lastlocation.X > (s.Width + p.X) - this.Width) frmSetting.lastlocation.X = (s.Width + p.X) - this.Width;
-                    if (frmSetting.lastlocation.Y > (s.Height + p.Y) - this.Height) frmSetting.lastlocation.Y = (s.Height + p.Y) - this.Height;
+                    if (frmSetting.lastlocation.X > (s.Width + p.X) - thisWidth) frmSetting.lastlocation.X = (s.Width + p.X) - thisWidth;
+                    if (frmSetting.lastlocation.Y > (s.Height + p.Y) - thisHeight) frmSetting.lastlocation.Y = (s.Height + p.Y) - thisHeight;
                     break;
                 case 3 :    //그냥자율
                     break;
