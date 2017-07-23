@@ -97,7 +97,7 @@ namespace fast_capture
         {
             StringBuilder sb = new StringBuilder();
             sb.Append(frmSetting.defaultdirectory);
-            sb.Append("sshok_");
+            sb.Append("cfc_");
             sb.Append(DateTime.Now.ToString("yyyyMMddHHmmss"));
             sb.Append(".png");
             try

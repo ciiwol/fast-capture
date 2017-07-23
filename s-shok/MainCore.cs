@@ -85,9 +85,9 @@ namespace fast_capture
             frmsetting = null;
 
             //설정 불러오기
-            if (File.Exists(Path.Combine(Application.StartupPath, "setting.sshok")))
+            if (File.Exists(Path.Combine(Application.StartupPath, "setting.cfc")))
             {
-                StreamReader sr = new StreamReader(Path.Combine(Application.StartupPath, "setting.sshok"), Encoding.UTF8, true);
+                StreamReader sr = new StreamReader(Path.Combine(Application.StartupPath, "setting.cfc"), Encoding.UTF8, true);
                 string rr;
                 string[] rr2;
                 char[] param = new char[] { '*' };

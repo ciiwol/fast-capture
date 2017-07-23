@@ -136,7 +136,7 @@
             // sfd
             // 
             this.sfd.DefaultExt = "png";
-            this.sfd.FileName = "sshok.png";
+            this.sfd.FileName = "fast_capture.png";
             this.sfd.Filter = "png파일|*.png|모든 파일|*.*";
             this.sfd.InitialDirectory = "C:\\Users\\주진\\Pictures";
             // 

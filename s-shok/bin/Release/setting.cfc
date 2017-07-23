@@ -1,0 +1,12 @@
+ClickTrayIcon*0
+DefaultDirectory*C:\Users\jk012\Pictures
+Opacity*70
+LocationMode*5
+LastLocation*0,0
+isAutoClose*False
+AutoCloseTime*3
+isSaveCB*True
+isSaveAuto*False
+isSaveOpen*False
+isRunStartup*False
+isCaptureWholeScreen*False

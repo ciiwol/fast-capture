@@ -32,7 +32,7 @@ namespace fast_capture
 
         static public void setting_save()
         {
-            StreamWriter sw = new StreamWriter(Path.Combine(Application.StartupPath,"setting.sshok"));
+            StreamWriter sw = new StreamWriter(Path.Combine(Application.StartupPath, "setting.cfc"));
             StringBuilder sb = new StringBuilder();
             sb.Append("ClickTrayIcon*");
             sb.Append(tray); sb.AppendLine();
