@@ -358,7 +358,7 @@
             this.lblTitleBar.Name = "lblTitleBar";
             this.lblTitleBar.Size = new System.Drawing.Size(824, 30);
             this.lblTitleBar.TabIndex = 0;
-            this.lblTitleBar.Text = "스샥 설정";
+            this.lblTitleBar.Text = "설정";
             this.lblTitleBar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lblTitleBar_MouseDown);
             // 
@@ -444,7 +444,7 @@
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(74, 15);
             this.lblVersion.TabIndex = 7;
-            this.lblVersion.Text = "스샥(s-shok)";
+            this.lblVersion.Text = "Fast capture";
             // 
             // llblEmail
             // 
@@ -472,7 +472,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "frmSetting";
-            this.Text = "스샼! 설정(S-Shok! Settings)";
+            this.Text = "Fast capture setting";
             this.Load += new System.EventHandler(this.setting_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackopacity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nautoclose)).EndInit();

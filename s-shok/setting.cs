@@ -83,9 +83,9 @@ namespace fast_capture
             //시작프로그램 등록
             Microsoft.Win32.RegistryKey rkey = Microsoft.Win32.Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
             if (isRunStartup)
-               rkey.SetValue("s-shok", Application.ExecutablePath);
+               rkey.SetValue("ciiwolfastcapture", Application.ExecutablePath);
              else
-                rkey.DeleteValue("s-shok", false);
+                rkey.DeleteValue("ciiwolfastcapture", false);
 
             this.Close();
         }
@@ -107,7 +107,7 @@ namespace fast_capture
             if (Screen.AllScreens.Length > 1) gbMultiMonitor.Visible = true;
             else gbMultiMonitor.Visible = false;
 
-            lblVersion.Text = "스샥(s-shok) " + Application.ProductVersion;
+            lblVersion.Text = "Fast capture " + Application.ProductVersion;
         }
 
         private void llbl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
